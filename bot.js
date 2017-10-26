@@ -6,7 +6,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 var tweet = {
-  status: 'Hi Community! What did you code today? #Surreycodes'
+  status: 'Hi @lespinalrivera! What did you code today? #Surreycodes'
 }
 
 T.post('statuses/update', tweet, tweeted);
